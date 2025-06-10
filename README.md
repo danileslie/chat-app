@@ -11,25 +11,7 @@ This application allows users to communicate through the use of one-to-one chats
 - Fullscreen mode
 - Cross platform
 
-## Installation
-
-Clone the repo
-
-```bash
-  repo link
-```
-
-Navigate to project directory and install dependencies
-
-```bash
-cd repo
-npm front
-npm i
-cd back
-npm i
-```
-
-create .env file
+## Create .env file
 
 ```bash
 // database
@@ -47,10 +29,16 @@ IMAGEKIT_URL_ENDPOINT=.........
 
 Be sure to replace the omitted values in the .env files with your own details.
 
-Setup MongoDB here: https://www.mongodb.com/
-Setup Imagekit here: https://imagekit.io/
+- Setup MongoDB here: https://www.mongodb.com/
+- Setup Imagekit here: https://imagekit.io/
 
-Start project
+## Build project
+
+```bash
+npm run build
+```
+
+## Start project
 
 ```bash
 npm start
