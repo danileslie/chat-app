@@ -2,6 +2,12 @@
 
 This application allows users to communicate through the use of one-to-one chats.
 
+[Live link](https://chat-app-5adk.onrender.com/login)
+```
+email: john@email.com
+password: 12345678
+```
+
 ## Features
 
 - Stack: MERN, Zustand, Socket.io, ShadCN, TailwindCSS
